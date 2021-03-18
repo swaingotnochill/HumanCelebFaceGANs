@@ -21,7 +21,7 @@ There are two neural networks: a *Generator* and a *Discriminator*. The generato
 
 GANs however, can be notoriously difficult to train, and are extremely sensitive to hyperparameters, activation functions and regularization. In this tutorial, we'll train a GAN to generate images of anime characters' faces.
 
-<img src="https://i.imgur.com/NaKtJs0.png" width="360" style="margin-bottom:32px"/>
+<img src="https://github.com/swaingotnochill/HumanCelebFaceGANs/blob/main/Gan_Generated_Images/generated-images-0025.png" width="360" style="margin-bottom:32px"/>
 
 ## Using a GPU 
 - To seamlessly use a GPU, if one is available, we define a couple of helper functions (`get_default_device` & `to_device`) and a helper class `DeviceDataLoader` to move our model & data to the GPU, if one is available.
