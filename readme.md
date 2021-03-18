@@ -63,6 +63,10 @@ Let's define a `fit` function to train the discriminator and generator in tandem
 I trained the model for around 3-4 hours which is pretty less considering the complexity of the project.Hence, few areas, the model needs few improvements.
 
 <img src="https://github.com/swaingotnochill/HumanCelebFaceGANs/blob/main/Gan_Generated_Images/generated-images-0025.png" width="360" style="margin-bottom:32px"/>
+## GANs Score and Loss
+<img src="https://github.com/swaingotnochill/HumanCelebFaceGANs/blob/main/assets/GANScore.png" width="360" style="margin-bottom:32px"/>
+
+<img src="https://github.com/swaingotnochill/HumanCelebFaceGANs/blob/main/assets/GANLoss.png" width="360" style="margin-bottom:32px"/>
 
 ## Future Scope
 I am planning on improving the architecture and using a deep neural network for discriminator and generator and few techniques to eleminate noises. The fact that discriminator networks are very unstable remains unchanged. So, future work will be on designing a more stable network.
