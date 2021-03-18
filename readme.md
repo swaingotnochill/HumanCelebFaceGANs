@@ -21,8 +21,6 @@ There are two neural networks: a *Generator* and a *Discriminator*. The generato
 
 GANs however, can be notoriously difficult to train, and are extremely sensitive to hyperparameters, activation functions and regularization. In this tutorial, we'll train a GAN to generate images of anime characters' faces.
 
-<img src="https://github.com/swaingotnochill/HumanCelebFaceGANs/blob/main/Gan_Generated_Images/generated-images-0025.png" width="360" style="margin-bottom:32px"/>
-
 ## Using a GPU 
 - To seamlessly use a GPU, if one is available, we define a couple of helper functions (`get_default_device` & `to_device`) and a helper class `DeviceDataLoader` to move our model & data to the GPU, if one is available.
 
@@ -59,6 +57,15 @@ Since the outputs of the generator are images, it's not obvious how we can train
 Let's define a `fit` function to train the discriminator and generator in tandem for each batch of training data. We'll use the Adam optimizer with some custom parameters (betas) that are known to work well for GANs. We will also save some sample generated images at regular intervals for inspection.
 
 <img src="https://i.imgur.com/6NMdO9u.png" style="max-width:420px; margin-bottom:32px"/>
+
+## Training Time 
+
+I trained the model for around 3-4 hours which is pretty less considering the complexity of the project.Hence, few areas, the model needs few improvements.
+
+<img src="https://github.com/swaingotnochill/HumanCelebFaceGANs/blob/main/Gan_Generated_Images/generated-images-0025.png" width="360" style="margin-bottom:32px"/>
+
+## Future Scope
+I am planning on improving the architecture and using a deep neural network for discriminator and generator and few techniques to eleminate noises. The fact that discriminator networks are very unstable remains unchanged. So, future work will be on designing a more stable network.
 
 
 
